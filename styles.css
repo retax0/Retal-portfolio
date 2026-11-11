@@ -1,0 +1,33 @@
+/* Dark blue provides a consistent, professional cybersecurity theme. */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; line-height: 1.6; color: #222; background-color: #f4f6f8; }
+header { background-color: #172b4d; color: #fff; text-align: center; padding: 50px 20px; }
+header h1 { font-size: 36px; margin-bottom: 10px; }
+header p { font-size: 18px; }
+main { max-width: 1000px; margin: 0 auto; padding: 30px 20px; }
+section { background-color: #fff; padding: 25px; margin-bottom: 25px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,.05); }
+#about { border-left: 4px solid #172b4d; }
+h2 { color: #172b4d; margin-bottom: 15px; border-bottom: 2px solid #172b4d; padding-bottom: 5px; }
+.skills-list { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; margin: 0; }
+.skills-list li { background: #e8edf5; color: #172b4d; border-radius: 20px; padding: 7px 13px; }
+ul, ol { margin-left: 25px; }
+li { margin-bottom: 8px; }
+a { color: #172b4d; text-decoration: none; font-weight: bold; }
+a:hover { text-decoration: underline; color: #355d94; }
+table { width: 100%; border-collapse: collapse; margin-top: 15px; table-layout: auto; }
+th, td { border: 1px solid #ddd; padding: 10px 12px; text-align: left; }
+th { background-color: #172b4d; color: #fff; }
+tr:nth-child(even) { background-color: #f2f2f2; }
+form p { margin-bottom: 15px; }
+label { margin-right: 8px; }
+input[type="text"], input[type="email"], input[type="number"] { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px; }
+input[type="radio"], input[type="checkbox"] { margin-right: 5px; }
+fieldset { border: 1px solid #ddd; border-radius: 6px; padding: 12px; margin-bottom: 15px; }
+fieldset label { display: inline-block; margin: 5px 12px 5px 0; }
+button { background-color: #172b4d; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+button:hover { background-color: #0f1d35; }
+.form-errors, .form-success { border-radius: 8px; padding: 15px; margin-top: 20px; }
+.form-errors { background: #fff0f0; color: #8b1e1e; border: 1px solid #d9534f; }
+.form-success { background: #edf8f0; color: #205c35; border: 1px solid #70b783; }
+footer { text-align: center; background-color: #172b4d; color: #fff; padding: 20px; margin-top: 20px; }
+@media (max-width: 700px) { header { padding: 35px 15px; } header h1 { font-size: 28px; } main { padding: 20px 12px; } section { padding: 18px; } table { display: block; overflow-x: auto; white-space: nowrap; } }
